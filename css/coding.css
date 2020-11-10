@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+  --primary: #111111;
+  --accent: #eb5757;
+  --accent2: #bde7e7;
+  --gray-dark: #2d3436;
+  --gray-mid: #b2bec3;
+  --gray-light: #f4f4f4;
+  --gray-light2: #eeeeee;
+  --gray-body: #f9f9f9;
+}
+
+.wrap {
+  background: var(--gray-body);
+  padding-bottom: 100px;
+}
+
+.works_btn button {
+  padding: 5px 20px;
+  font-size: 14px;
+  background: var(--accent2);
+  border: 1px solid var(--gray-mid);
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  margin: 20px 0 40px;
+  font-weight: 500;
+  transition: font-weight 0.3s;
+}
+
+.works_btn button:hover {
+  font-weight: 900;
+}
+
+section {
+  border: 2px solid var(--gray-mid);
+  margin: 5px 0;
+}
+
+/* .run_scr video {
+  width: 100%;
+  height: 100%;
+} */
+
+.run_scr iframe {
+  width: 100%;
+  height: 600px;
+  /* height: 100%; */
+}
+
+.title_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.title_box .coding_title span {
+  padding: 0 10px;
+}
+
+.code_btn {
+  margin-right: 20px;
+}
+.code_btn button {
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background: var(--accent);
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s, background 0.3s, font-weight 0.3s;
+}
+
+.code_btn button:hover {
+  font-weight: 900;
+  background: var(--accent2);
+  color: var(--primary);
+}
+
+.code_explan {
+  padding: 50px 100px 100px;
+  line-height: 2;
+  font-size: 17px;
+}

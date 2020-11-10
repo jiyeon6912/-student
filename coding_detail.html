@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Detail</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/coding.css">
+</head>
+<body>
+<!-- -----상단메뉴 시작----- -->
+<header>
+ <a href="./index.html"><h1>허학생의 코딩 작품집</h1></a>
+  <ul class="nav">
+    <li><a href="./index.html">작품모음</a></li>
+    <li><a href="./course_entry.html">과정설명</a></li>
+    <li><a href="./my_intro.html">나의소개</a></li>
+    </ul>
+</header>
+<!-- -----상단메뉴 끝----- -->
+         
+<div class="wrap">
+  <div class="container">
+    <a href="./index.html" class="works_btn"><button>다른 작품 보기</button></a>
+    <section class="run_scr">
+      <iframe src="https://www.youtube.com/embed/ILhBfOoRC4I " frameborder="0"></iframe>
+      <!-- <video src="./images/blue.mp4" autoplay muted loop></video> -->
+      <!-- <video src="./images/blue.mp4" controls loop></video> -->
+      <!-- <video src="./images/running.mp4" controls loop></video> -->
+
+      <!-- https://youtu.be/ILhBfOoRC4I 유튜브 url주소 복사후  -->
+      <!-- https://www.youtube.com/embed/ILhBfOoRC4I 이런식의 주소로 변경 -->
+
+    </section>
+
+    <section class="title_box">
+      <div class="coding_title">
+        <img src="./images/entry.png" alt="코딩장르섬네일">
+        <span>코딩장르</span>
+        <h5>코딩작품제목</h5>
+        </div>
+        <div class="code_btn"><a href="#"><button>코드보기</button></a></div>
+    </section>
+
+    <section class="code_explan">
+      <p>엔트리봇과 함께하는 빙고게임<br>
+        엔트리봇을 이겨보세요!<br>
+        5 x 5 칸에 1부터 50까지의 숫자가 랜덤하게 들어가있어요<br>
+        입력을 통해 칸을 색칠하고, 빙고를 만들어보세요!<br>
+        
+        룰<br>
+        - 플레이어와 엔트리봇은 각각 5x5 빙고판을 갖습니다<br>
+        - 화면에는 플레이어의 빙고판만 보입니다<br>
+        - 플레이어부터 숫자를 입력하여 빙고판을 색칠합니다<br>
+        - 플레이어의 턴이 끝나면 엔트리의 턴입니다<br>
+        - 승리 조건은 목표 빙고수를 먼저 채운 쪽이 승리합니다<br>
+        - 단, 동시에 완성했을 경우 플레이어 턴이면 플레이어가 승리, 엔트리 턴이면 엔트리가 승리하는 구조입니다<br>
+        - 엔트리봇의 빙고판은 게임이 종료되면 확인할 수 있습니다<br>
+        
+        플레이 영상 보기: https://youtu.be/RY4TKaVXeUg<br>
+        
+        ====================================================<br>
+        v1.0.1<br>
+        빙고수와 목표수를 게임 내에서 확인할 수 있도록 글상자 추가<br>
+        로그인 하지 않은 사용자에 대해 '방문자'로 표현<br>
+        
+        v1.0.2<br>
+        게임이 종료된 후 엔트리봇의 빙고판을 볼 수 있어요!<br>
+        
+        v1.0.3<br>
+        빙고판 오브젝트 모양 크기 수정<br>
+        
+        v1.0.4<br>
+        BGM 추가<br>
+        
+        v1.0.5<br>
+        종료 화면에 엔트리 빙고수 및 승리한 플레이어의 빙고수도 함께 출력</p>
+    </section>
+
+  </div>    <!--container end-->
+</div>
+ 
+
+<footer>
+<div class="container sns">
+  <a href="#"><img src="./images/Gmail_2.png" alt="구글메일아이콘"></a>
+  <a href="#"><img src="./images/phone_3.png" alt="전화아이콘"></a>
+  <a href="#"><img src="./images/KakaoTalk_white.png" alt="카카오톡아이콘"></a>
+</div>
+<div class="container contact_info">
+  <p><span>학생메일주소</span>|<span>학생연락처</span>|<span>Copyright 2020ⓒ 허쌤컴교실</span></p>
+</div>
+</footer>
+    
+
+ 
+  <script src="./app.js"></script>
+</body>
+</html>

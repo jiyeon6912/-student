@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+  --primary: #111111;
+  --accent: #eb5757;
+  --accent2: #bde7e7;
+  --gray-dark: #2d3436;
+  --gray-mid: #b2bec3;
+  --gray-light: #f4f4f4;
+  --gray-light2: #eeeeee;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  /* background: yellow; */
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  padding: 30px;
+  /* background: blue; */
+  transition: color 0.3s;
+}
+
+header h1:hover {
+  color: var(--accent);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+  display: inline-block;
+  text-align: center;
+  line-height: 80px;
+  font-size: 22px;
+  font-weight: 500;
+  height: 80px;
+  /* background: red; */
+  /* padding: 0 20px; */
+  margin: 20px 70px;
+  /* margin-left: 20px; */
+  transition: font-weight 0.3s, color 0.3s;
+}
+
+.nav a:hover {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.course_banner {
+  /* align-items: center; */
+  height: 600px;
+  /* background: var(--accent2); */
+  background: url(../images/entry_banner.JPG) no-repeat right/cover;
+}
+
+.course_banner .arrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* height: 600px; */
+  /* background: red; */
+  padding: 0 100px;
+}
+
+.course_banner .arrow a {
+  /* background: red; */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: relative;
+  transition: border 0.3s;
+}
+
+.course_banner .arrow a:hover {
+  border: 3px solid #fff;
+}
+
+.course_banner .arrow img {
+  width: 13px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.course_title {
+  color: #fff;
+  font-size: 20px;
+  /* margin-top: 100px; */
+  padding: 100px 0;
+  line-height: 1.8;
+}
+
+.course_title h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.course_title button {
+  margin-top: 70px;
+  padding: 20px 50px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  font-weight: 500;
+  transition: border 0.3s, font-weight 0.3s;
+}
+
+.course_title button:hover {
+  font-weight: 900;
+  border: 2px solid #fff;
+}
+
+/* .course_banner img {
+  height: 600px;
+} */
+
+h2 {
+  font-size: 45px;
+  font-weight: 500;
+  color: var(--gray-dark);
+  text-align: center;
+  padding: 150px 0 70px;
+}
+
+.coding_works {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.coding_photo {
+  height: 280px;
+  border: 1.5px solid var(--gray-mid);
+  /* background: red; */
+  margin-bottom: 60px;
+  transition: box-shadow 0.3s;
+}
+
+.coding_photo:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+/* 
+.coding_photo:last-child {
+  margin-left: 50px;
+  margin-right: auto;
+} */
+
+.coding_photo img {
+  width: 360px;
+  height: 220px;
+  /* background: yellow; */
+}
+
+.coding_title {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* background: blue; */
+}
+
+.coding_title img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.coding_title span {
+  font-size: 18px;
+}
+
+.coding_title h5 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+
+footer {
+  height: 200px;
+  /* background: var(--gray-mid); */
+  background: var(--gray-light2);
+  /* margin-top: 50px; */
+  /* border-top: 1px solid var(--gray-mid); */
+  /* box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.sns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sns img {
+  width: 40px;
+  height: 40px;
+  /* background: var(--gray-dark); */
+  -webkit-filter: invert(60%);
+  filter: invert(60%);
+}
+
+.sns a {
+  padding: 45px 60px;
+  /* background: red; */
+}
+
+.contact_info {
+  font-size: 20px;
+  color: var(--gray-dark);
+  text-align: center;
+}
+
+.contact_info span {
+  padding: 0 30px;
+}
